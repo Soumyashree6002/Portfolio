@@ -6,6 +6,7 @@ import facebook_logo from '../../assets/facebook_logo.jpg'
 import instagram_logo from '../../assets/Instagram_logo.webp'
 import twitter_logo from '../../assets/twitter_logo.png'
 import linkedin_logo from '../../assets/linkedin_logo.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Footer = () => {
     return (
@@ -31,7 +32,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-right">
-                ^Back-to-top
+                <AnchorLink className='anchor-link'  href='#home'>Back-to-top</AnchorLink>
             </div>
         </div>
     )

@@ -2,7 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    padding: 5px 5px;
+    width: 100%;
+    position: fixed;
+    background-color: black; 
+    z-index: 5;
 }
 
 .navbar img{
